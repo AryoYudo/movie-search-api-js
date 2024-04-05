@@ -8,6 +8,25 @@
     <link rel = "stylesheet" href = "main.css">
 </head>
 <body>
+    <div class="wrapper">
+        <!--logo-->
+        <div class="logo">
+            <div class="container">
+                <p>Movie <span>Recap.</span></p>
+            </div>
+        </div>
+        <!--end logo-->
+        <!--search-->
+        <div class="search-container">
+            <div class="search-element">
+                <h3>Search Movie:</h3>
+                <input type="text" class="form-control" placeholder="Search Movie Title ..." id="movie-search-box" onkeyup="findMovies()" onclick="findMovies()">
+                <div class="search-list" id="search-list">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
